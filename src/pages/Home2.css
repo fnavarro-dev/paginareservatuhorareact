@@ -1,0 +1,12 @@
+.fondo {
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0.98) 0%, #4D307B 100%);
+  }
+
+.tituloblanco {
+  color: white;
+  font-weight: 'bold';
+}
+
+.color-nav {
+  background-color: 'orange';
+}
