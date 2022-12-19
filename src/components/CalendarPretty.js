@@ -17,7 +17,11 @@ const CalendarPretty = () => {
   
   return (
     <div>
-    <Calendar onChange={onChange} value={value} 
+    <Calendar 
+        onChange={onChange} 
+        value={value} 
+        showDoubleView
+        minDetail="year"
     
     />
     </div>

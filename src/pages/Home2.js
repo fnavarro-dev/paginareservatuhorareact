@@ -1,8 +1,13 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
 import {NavBarComponent, ReservaTuHora} from "../components";
 import CalendarPretty from "../components/CalendarPretty";
 import './Home2.css';
-import fotocabecera from '../../src/assets/img/Rectangle204.png'
+import fotocabecera from '../../src/assets/img/Rectangle204.png';
+import BootCard from '../components/bootcard';
+
+
 
 
 
@@ -21,31 +26,54 @@ const HomePage2= () => {
                 // backgroundRepeat: 'no-repeat'
                 // }}
                 >
-                
+
+                {/* NAVBAR */}
                 
                 <NavBarComponent />
 
                 <img src={fotocabecera} alt="Logo" />
 
+                    <div>
+                    <h2 class="tituloblanco">
+                    Cancha de Fútbol Chacabuco
+                    </h2>
+                    </div>
+
+
+                <Image></Image>
                 
-                    <div class="mx-5">
+                    <div>
                     <h2 class="tituloblanco">
                     Elige tu fecha
                     </h2>
                     </div>
 
                 
-
-                <div class="mx-auto">
-                <CalendarPretty />
+             
+                
+                <div className='calendario'>
+                <CalendarPretty 
+                    value={new Date()}
+	                  showDoubleView/>
                 </div>
 
-                <div class="container">
-                        <div class="row">
-                            <ReservaTuHora />
-                        </div>
+                <div>
+                    <h2 class="tituloblanco">
+                    Elige tu turno
+                    </h2>
+                    </div>
+
                 
-                
+                <div className="eligetuturno">
+                    <div class="container">
+                            <div class="row">
+                                <ReservaTuHora />
+                            </div>
+                    </div>
+                </div>
+
+                <div className="botonpagarcontenedor">
+                <Button href="#" className="botonpagar">Pagar y Reservar</Button>
                 </div>
                         </div>
 
