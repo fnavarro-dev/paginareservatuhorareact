@@ -9,5 +9,9 @@ import NavBarComponent from "./NavBar";
 import CalendarPretty from "./CalendarPretty";
 import ReservaTuHora from "./ReservaTuHora";
 
+import NavbarKeepeComponent from "./Navbarkeepe";
+import RecintosComponent from "./Recintos";
+import Imagen1 from "./Imagen";
 
-export {ReservaTuHora, CalendarPretty, NavBarComponent, TextComponent, TableComponent, FormularioAuto, FormularioUsuario, TablaAutos, TablaUsuarios, BotonFormulario};
+
+export {Imagen1, RecintosComponent, NavbarKeepeComponent, ReservaTuHora, CalendarPretty, NavBarComponent, TextComponent, TableComponent, FormularioAuto, FormularioUsuario, TablaAutos, TablaUsuarios, BotonFormulario};

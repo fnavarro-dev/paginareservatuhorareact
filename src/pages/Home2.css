@@ -175,3 +175,17 @@
   font-family: Kumbh Sans;
   width: 18%;
 }
+
+.tarjetaimagen {
+  display: flex;
+  justify-content: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+
+}
+
+.tarjetaindividual {
+  border-color: white;
+  border-width: 1rem;
+  
+}
