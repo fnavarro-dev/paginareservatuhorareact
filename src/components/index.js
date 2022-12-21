@@ -12,6 +12,7 @@ import ReservaTuHora from "./ReservaTuHora";
 import NavbarKeepeComponent from "./Navbarkeepe";
 import RecintosComponent from "./Recintos";
 import Imagen1 from "./Imagen";
+import Imagen2 from "./Imagen2";
 
 
-export {Imagen1, RecintosComponent, NavbarKeepeComponent, ReservaTuHora, CalendarPretty, NavBarComponent, TextComponent, TableComponent, FormularioAuto, FormularioUsuario, TablaAutos, TablaUsuarios, BotonFormulario};
+export {Imagen1, Imagen2, RecintosComponent, NavbarKeepeComponent, ReservaTuHora, CalendarPretty, NavBarComponent, TextComponent, TableComponent, FormularioAuto, FormularioUsuario, TablaAutos, TablaUsuarios, BotonFormulario};

@@ -1,7 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
-import {Imagen1, NavBarComponent, NavbarKeepeComponent, ReservaTuHora} from "../components";
+import {Imagen1, Imagen2, NavBarComponent, NavbarKeepeComponent, ReservaTuHora} from "../components";
 import CalendarPretty from "../components/CalendarPretty";
 import './Home2.css';
 import fotocabecera from '../../src/assets/img/Rectangle204.png';
@@ -41,7 +41,7 @@ const HomePage2= () => {
 
 
                 <div className="tarjetaimagen">
-                <Imagen1 className="tarjetaindividual"/>
+                <Imagen2 className="tarjetaindividual"/>
                 <Imagen1 />
                 </div>
                 
